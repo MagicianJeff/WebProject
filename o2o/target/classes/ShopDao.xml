@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.imooc.o2o.dao.ShopDao">
+<mapper namespace="com.jeff.o2o.dao.ShopDao">
 	<insert id="insertShop" useGeneratedKeys="true"
 		keyColumn="shop_id" keyProperty="shopId">
 		INSERT INTO
@@ -15,7 +15,7 @@
 		#{shopImg},#{priority},#{createTime},#{lastEditTime},
 		#{enableStatus},#{advice})
 	</insert>
-	<update id="updateShop" parameterType="com.imooc.o2o.entity.Shop">
+	<update id="updateShop" parameterType="com.jeff.o2o.entity.Shop">
 		update tb_shop
 		<set>
 			<if test="shopName != null ">shop_name=#{shopName},</if>

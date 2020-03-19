@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.imooc.o2o.BaseTest;
 import com.imooc.o2o.entity.Area;
+import com.imooc.o2o.service.AreaService;
 
 public class AreaServiceTest extends BaseTest{
 	@Autowired

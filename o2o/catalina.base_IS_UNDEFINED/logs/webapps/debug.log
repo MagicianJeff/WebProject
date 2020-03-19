@@ -1,0 +1,6 @@
+2020-03-19 18:41:29.630 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2020-03-19 18:41:29.682 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2020-03-19 18:41:28.809(Timestamp), 7(Long)
+2020-03-19 18:41:29.901 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-03-19 18:45:32.195 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_desc=?, shop_addr=?, last_edit_time=? where shop_id=? 
+2020-03-19 18:45:32.235 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试描述(String), 测试地址(String), 2020-03-19 18:45:31.755(Timestamp), 7(Long)
+2020-03-19 18:45:32.332 [main] DEBUG com.imooc.o2o.dao.ShopDao.updateShop - <==    Updates: 1
